@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Virtual Reality</title>
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Indie+Flower');
+body
+{
+	margin: 0;
+
+}
+a
+{
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	text-shadow: 0 0 10px black;
+}
+nav
+{
+	text-align: center;
+
+}
+		#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+	</style>
+</head>
+<body>
+	<nav>
+	<a href="index.html"> About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="ppt.html"> Presentation</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="vid.html"> Video </a>
+	</nav>
+
+
+		<video autoplay poster="vid.jpg" loop id="myVideo">
+  <source src="vid.mp4" type="video/mp4">
+</video>
+
+
+<div class="content">
+  <h1>Virtual Reality (used CS:GO game)</h1>
+  <p>Here in the video you can see the player playing CS go game using virtual reality gear, experiencing game layouts as if he is living the game.</p>
+  
+</div>
+
+
+
+
+
+
+</body>
+</html>

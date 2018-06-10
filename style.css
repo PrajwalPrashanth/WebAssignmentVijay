@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Indie+Flower');
+body
+{
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+}
+h1
+{
+	font-family: 'Bree Serif', serif;
+	font-size: 70px;
+	position: absolute;
+	top: 15%;
+	left: 7%;
+	text-shadow: 2px 2px 30px #ff0000;
+	color: rgb(255,255,255);
+}
+a
+{
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	text-shadow: 0 0 10px black;
+}
+nav
+{
+	text-align: center;
+
+}
+
+p
+{
+	position: absolute;
+	text-align: center;
+	font-size: 26px;
+	text-shadow: 0 0 10px blue;
+	top: 43%;
+	left: 5%;
+}
+
+
+.bg
+{
+	width: 100%;
+	position: fixed;
+	opacity: .75;
+	z-index: -1;
+	top: 0;
+}
